@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Distribution
+*.whl
+*.tar.gz
+
+# pyproject / pip artifacts
+pip-wheel-metadata/
+.pip-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exports (generated files, not source)
+*.xlsx
+*.csv
+
+# Test/local data
+test_*.csv
+test_*.xlsx
+test/
